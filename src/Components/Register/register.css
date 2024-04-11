@@ -1,0 +1,39 @@
+
+.register-container {
+    padding: 60px;
+  /* display: flex; */
+}
+
+
+.card-container {
+  flex: 1; 
+  margin-right: 20px; 
+  transition: transform 0.5s ease; 
+  margin-bottom: 40px;
+}
+
+
+.card-container:hover {
+  transform: translateY(-5px); 
+}
+
+
+.register {
+  background-color: #cecbe4;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(244, 191, 191, 0.1);
+}
+
+/* Define styles for the headings */
+.register h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Define styles for the paragraphs */
+.register p {
+  color: #666;
+  font-size: 16px;
+}
