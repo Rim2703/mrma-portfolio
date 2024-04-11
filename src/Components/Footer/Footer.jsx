@@ -1,5 +1,6 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react';
+import { Link } from "react-router-dom";
+
 
 const Footer = () => {
   return (
@@ -7,14 +8,9 @@ const Footer = () => {
       <p>© 2024 Right Path Predictor Pvt. Ltd. All rights reserved.</p>
       <ul>
         <li>
-          <a href="https://thalaforareason.com/" target="_blank">
-            Terms of Services
-          </a>
-        </li>
-        <li>
-          <a href="https://thalaforareason.com/" target="_blank">
-            Privacy Policy
-          </a>
+          <Link to="/terms-of-services">
+            <p>Terms of Services</p>
+          </Link>
         </li>
       </ul>
     </div>

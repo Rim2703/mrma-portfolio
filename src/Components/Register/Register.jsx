@@ -10,7 +10,7 @@ const Register = () => {
       <div className="card-box">
         <div className="register">
           <div>
-            <BiSolidLogInCircle />
+            <BiSolidLogInCircle className="icon" />
           </div>
           <h2>Register with Mera Rojgar Mera Adhikar</h2>
 
@@ -23,7 +23,7 @@ const Register = () => {
       <div className="card-box">
         <div className="register">
           <div>
-            <MdPhoneAndroid />
+            <MdPhoneAndroid className="icon" />
           </div>
           <h2>Login with Mobile Number and OTP</h2>
           {/* <p>
@@ -35,7 +35,7 @@ const Register = () => {
       <div className="card-box">
         <div className="register">
           <div>
-            <MdDashboard />
+            <MdDashboard className="icon" />
           </div>
           <h2>Access Your Dashboard</h2>
           {/* <p>
@@ -47,7 +47,7 @@ const Register = () => {
       <div className="card-box">
         <div className="register">
           <div>
-            <RiTimerFlashLine />
+            <RiTimerFlashLine className="icon" />
           </div>
           <h2>Explore Features and Requirements</h2>
           {/* <p>
