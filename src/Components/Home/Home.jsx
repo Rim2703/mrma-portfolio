@@ -13,7 +13,7 @@ export default function Home({ setPlayState }) {
   return (
     <>
       <Hero />
-      <div className="container">
+      <div className="box">
         <Title subTitle="Our Platform" title="What We Provide" />
         <Programs />
         <Organisations />

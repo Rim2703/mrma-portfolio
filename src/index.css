@@ -1,26 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
-*{
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Outfit", sans-serif;
 }
-body{
+body {
   background: hwb(0 95% 5%);
 }
-a{
+a {
   text-decoration: none;
   color: inherit;
   line-height: 1;
   cursor: pointer;
 }
-.container{
+.box {
   padding-left: 10%;
   padding-right: 10%;
 }
-.btn{
-  background: #FFF;
+.btn {
+  background: #fff;
   color: #212121;
   padding: 14px 25px;
   font-size: 16px;
@@ -32,23 +34,23 @@ a{
   align-items: center;
   justify-content: center;
 }
-.btn img{
+.btn img {
   width: 20px;
   margin-left: 10px;
 }
-.btn.dark-btn{
-  background: #212EA0;
+.btn.dark-btn {
+  background: #212ea0;
   color: #fff;
 }
 
 /* ----- media query ----------- */
 
-@media (max-width: 1200px){
-  .container{
+@media (max-width: 1200px) {
+  .dabba {
     padding-left: 5%;
     padding-right: 5%;
   }
-  .btn{
+  .btn {
     padding: 14px 22px;
   }
 }

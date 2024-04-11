@@ -1,10 +1,11 @@
 import "./Hero.css";
 import dark_arrow from "../../assets/dark-arrow.png";
 import bgVideo from "/bg-video.mp4"; // Import your video file
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="hero container">
+    <div className="hero dabba">
       <video autoPlay muted loop className="video-background">
         <source src={bgVideo} type="video/mp4" />
         Your browser does not support the video tag.
@@ -16,10 +17,12 @@ const Hero = () => {
             Discover MERA ROJGAR MERA ADHIKAR - the easy way to hire or get
             hired as a reliable daily wage worker, all in one place.
           </p>
-          <button className="btn">
-            Register Now
-            <img src={dark_arrow} alt="" />
-          </button>
+          <Link to="register-user">
+            <button className="btn">
+              Register Now
+              <img src={dark_arrow} alt="" />
+            </button>
+          </Link>
         </div>
       </div>
     </div>

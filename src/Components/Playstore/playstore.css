@@ -1,32 +1,30 @@
-.outer-container {
+.outer-box {
   margin-top: 80px;
-    display: flex;
-    align-items: center; /* Center items vertically */
-  }
-  
-  .text-container {
-    flex: 50%; /* Allocate 40% space to the text */
-    padding-right: 10px; /* Add some spacing between text and images */
-  }
-  
-  
-  .worker-image { 
-    flex: 10%; 
-    width: 100%; 
-    
-   }
-   .playstore-logo{
-    margin-top: 35px;
-   }
-  
-  .worker-image img {
-    width: 100%; /* Ensure image fills its container */
-    border-radius: 15px;
-  }
-  
-  .text-container p{
-    margin-top: 10px;
-    font-size: large;
-    color: rgb(141, 135, 135);
-    word-wrap: break-word;
-  }
+  display: flex;
+  align-items: center; /* Center items vertically */
+}
+
+.text-box {
+  flex: 50%; /* Allocate 40% space to the text */
+  padding-right: 10px; /* Add some spacing between text and images */
+}
+
+.worker-image {
+  flex: 10%;
+  width: 100%;
+}
+.playstore-logo {
+  margin-top: 35px;
+}
+
+.worker-image img {
+  width: 100%; /* Ensure image fills its box */
+  border-radius: 15px;
+}
+
+.text-box p {
+  margin-top: 10px;
+  font-size: large;
+  color: rgb(141, 135, 135);
+  word-wrap: break-word;
+}
